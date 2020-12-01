@@ -9,7 +9,7 @@ import java.util.Scanner;
  * variable
  * 	nom, prenom: chaine de caractere
  * 	nbr_heure: entier
- * 	tarif_par_heure,prix_total : réel
+ * 	tarif_par_heure,prix_total : rï¿½el
  * debut
  * 		ecrire("Bonjour dans c'est programme")
  * 		ecrire("Quel est votre nom ?")
@@ -17,7 +17,7 @@ import java.util.Scanner;
  * 		ecrire("Quel est votre prenom ?")
  * 		lire prenom
  * 		ecrire("Bonjour, " + nom)
- * 		ecrire("Entrez le nombre d’heures travaillées")
+ * 		ecrire("Entrez le nombre dï¿½heures travaillï¿½es")
  * 		lire nbr_heure
  * 		si nbr_heurenbr_heure <= 60 alors
  * 			ecrire("Entrez le tarif par heure")
@@ -29,14 +29,14 @@ import java.util.Scanner;
  * 			fin si
  * 			affichage("votre indemnisation est de " + prix_total + " MAD")
  * 		sinon
- * 			ecrire("Le nombre d’heures travaillées est invalide")
+ * 			ecrire("Le nombre dï¿½heures travaillï¿½es est invalide")
  * 		fin si
  * 		ecrire("Fin de programme")
  * fin
  */
 
 
-public class SalculerSalaire {
+public class CalculerSalaire {
 
 	public static void main(String[] args) {
 		String nom,prenom;
@@ -46,10 +46,10 @@ public class SalculerSalaire {
 		System.out.println("Bonjour dans c'est programme");
 		System.out.println("Quel est votre nom ?");
 		nom = in.nextLine();
-		System.out.println("Quel est votre prénom ?");
+		System.out.println("Quel est votre prï¿½nom ?");
 		prenom = in.nextLine();
 		System.out.println("Bonjour, "+nom);
-		System.out.println("Entrez le nombre d’heures travaillées");
+		System.out.println("Entrez le nombre dï¿½heures travaillï¿½es");
 		nbr_heure = in.nextInt();
 		if(nbr_heure <= 60) {
 			System.out.println("Entrez le tarif par heure");
@@ -63,7 +63,7 @@ public class SalculerSalaire {
 			System.out.println("votre indemnisation est de " + prix_total + " MAD");
 		}
 		else {
-			System.out.println("Le nombre d’heures travaillées est invalide");
+			System.out.println("Le nombre dï¿½heures travaillï¿½es est invalide");
 		}
 		System.out.println("Fin de programme");	
 	}
